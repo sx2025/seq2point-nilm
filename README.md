@@ -176,3 +176,4 @@ To train the modoel, just run `python train_main.py` or in IDE environment, e.g.
 
 Any questions, please write email to me: mingjun.zhong@abdn.ac.uk
 # seq2point-nilm
+# seq2point-nilm
