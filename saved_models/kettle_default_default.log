@@ -1,0 +1,70 @@
+WARNING:tensorflow:Callbacks method `on_predict_batch_end` is slow compared to the batch time (batch time: 0.0010s vs `on_predict_batch_end` time: 0.0170s). Check your callbacks.
+INFO:root:Inference Time: 7.309143781661987
+INFO:root:('MSE: ', '0.06156936287879944', ' MAE: ', '0.03522881492972374')
+INFO:root:CONV. ZEROS: 0
+INFO:root:CONV. WEIGHTS: 37200
+INFO:root:CONV. RATIO: 0.0
+INFO:root:
+INFO:root:DENSE ZEROS: 0
+INFO:root:DENSE WEIGHTS: 10189824
+INFO:root:DENSE RATIO: 0.0
+INFO:root:
+INFO:root:TOTAL ZEROS: 37200
+INFO:root:TOTAL WEIGHTS: 10228249
+INFO:root:TOTAL RATIO: 0.0036369861547171957
+WARNING:tensorflow:Callbacks method `on_predict_batch_end` is slow compared to the batch time (batch time: 0.0012s vs `on_predict_batch_end` time: 0.0020s). Check your callbacks.
+INFO:root:Inference Time: 2.47007417678833
+INFO:root:('MSE: ', '0.056930020451545715', ' MAE: ', '0.033526647835969925')
+INFO:root:CONV. ZEROS: 0
+INFO:root:CONV. WEIGHTS: 37200
+INFO:root:CONV. RATIO: 0.0
+INFO:root:
+INFO:root:DENSE ZEROS: 0
+INFO:root:DENSE WEIGHTS: 10189824
+INFO:root:DENSE RATIO: 0.0
+INFO:root:
+INFO:root:TOTAL ZEROS: 37200
+INFO:root:TOTAL WEIGHTS: 10228249
+INFO:root:TOTAL RATIO: 0.0036369861547171957
+WARNING:tensorflow:Callbacks method `on_predict_batch_end` is slow compared to the batch time (batch time: 0.0010s vs `on_predict_batch_end` time: 0.0020s). Check your callbacks.
+INFO:root:Inference Time: 2.4486846923828125
+INFO:root:('MSE: ', '0.056930020451545715', ' MAE: ', '0.033526647835969925')
+INFO:root:CONV. ZEROS: 0
+INFO:root:CONV. WEIGHTS: 37200
+INFO:root:CONV. RATIO: 0.0
+INFO:root:
+INFO:root:DENSE ZEROS: 0
+INFO:root:DENSE WEIGHTS: 10189824
+INFO:root:DENSE RATIO: 0.0
+INFO:root:
+INFO:root:TOTAL ZEROS: 37200
+INFO:root:TOTAL WEIGHTS: 10228249
+INFO:root:TOTAL RATIO: 0.0036369861547171957
+WARNING:tensorflow:Callbacks method `on_predict_batch_end` is slow compared to the batch time (batch time: 0.0010s vs `on_predict_batch_end` time: 0.0020s). Check your callbacks.
+INFO:root:Inference Time: 2.4578170776367188
+INFO:root:('MSE: ', '0.0006028308416716754', ' MAE: ', '0.014282663352787495')
+INFO:root:CONV. ZEROS: 0
+INFO:root:CONV. WEIGHTS: 37200
+INFO:root:CONV. RATIO: 0.0
+INFO:root:
+INFO:root:DENSE ZEROS: 0
+INFO:root:DENSE WEIGHTS: 10189824
+INFO:root:DENSE RATIO: 0.0
+INFO:root:
+INFO:root:TOTAL ZEROS: 37200
+INFO:root:TOTAL WEIGHTS: 10228249
+INFO:root:TOTAL RATIO: 0.0036369861547171957
+WARNING:tensorflow:Callbacks method `on_predict_batch_end` is slow compared to the batch time (batch time: 0.0010s vs `on_predict_batch_end` time: 0.0020s). Check your callbacks.
+INFO:root:Inference Time: 2.4562344551086426
+INFO:root:('MSE: ', '0.0004559477383736521', ' MAE: ', '0.009513553231954575')
+INFO:root:CONV. ZEROS: 0
+INFO:root:CONV. WEIGHTS: 37200
+INFO:root:CONV. RATIO: 0.0
+INFO:root:
+INFO:root:DENSE ZEROS: 0
+INFO:root:DENSE WEIGHTS: 10189824
+INFO:root:DENSE RATIO: 0.0
+INFO:root:
+INFO:root:TOTAL ZEROS: 37200
+INFO:root:TOTAL WEIGHTS: 10228249
+INFO:root:TOTAL RATIO: 0.0036369861547171957
