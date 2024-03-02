@@ -37,7 +37,7 @@ nrows = 10**5
 
 params_appliance = {
     'kettle': {
-        'windowlength': 199,
+        'windowlength': 599,
         'on_power_threshold': 2000,
         'max_on_power': 3998,
         'mean': 700,
@@ -67,7 +67,7 @@ params_appliance = {
         'channels': [12, 14],
     },
     'dishwasher': {
-        'windowlength': 999,
+        'windowlength': 599,
         'on_power_threshold': 10,
         'max_on_power': 3964,
         'mean': 700,
@@ -77,7 +77,7 @@ params_appliance = {
         'channels': [6, 13],
     },
     'washingmachine': {
-        'windowlength': 999,
+        'windowlength': 299,
         'on_power_threshold': 20,
         'max_on_power': 3999,
         'mean': 400,

@@ -1,6 +1,6 @@
 params_appliance = {
     'kettle': {
-        'windowlength': 199,
+        'windowlength': 599,
         'on_power_threshold': 2000,
         'max_on_power': 3998,
         'mean': 700,
@@ -36,7 +36,7 @@ params_appliance = {
         'test_build': 2,
     },
     'dishwasher': {
-        'windowlength': 999,
+        'windowlength': 599,
         'on_power_threshold': 10,
         'max_on_power': 3964,
         'mean': 700,
@@ -54,9 +54,9 @@ params_appliance = {
         'mean': 400,
         'std': 700,
         's2s_length': 2000,
-        'houses': [1, 2],
-        'channels': [5, 12],
+        'houses': [1, 4],
+        'channels': [5, 6],
         'train_build': [1],
-        'test_build': 2,
+        'test_build': 4,
     }
 }

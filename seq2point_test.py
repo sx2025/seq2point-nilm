@@ -38,7 +38,7 @@ class Tester():
         self._input_window_length = input_window_length
         self.__window_size = self._input_window_length + 2
         self.__window_offset = int(0.5 * self.__window_size - 1)
-        self.__number_of_windows = 100
+        self.__number_of_windows = 600
 
         self.__test_directory = test_directory
         self.__saved_model_dir = saved_model_dir
@@ -70,7 +70,7 @@ class Tester():
 
         evaluation_metrics = model.evaluate(x=test_generator.load_dataset(), steps=steps_per_test_epoch)
 
-        self.log_results(model, test_time, evaluation_metrics)
+        #self.log_results(model, test_time, evaluation_metrics)
         self.plot_results(testing_history, test_input, test_target)
 
 
@@ -189,7 +189,7 @@ class Tester():
 
         # Plot testing outcomes against ground truth.
         plt.figure(1)
-        #plt.plot(test_agg[self.__window_offset: -self.__window_offset], label="Aggregate")
+        plt.plot(test_agg[self.__window_offset: -self.__window_offset], label="Aggregate")
         plt.plot(test_target[:test_agg.size - (2 * self.__window_offset)], label="Ground Truth")
         plt.plot(testing_history[:test_agg.size - (2 * self.__window_offset)], label="Predicted")
         plt.title(self.__appliance + " " + self.__network_type + "(" + self.__algorithm + ")")

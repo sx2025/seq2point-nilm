@@ -1,0 +1,39 @@
+2024-02-22 23:49:49.425080: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.94GiB with freed_by_count=0. The cal
+ler indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+  2/100 [..............................] - ETA: 22s - loss: 0.3358 - mse: 0.3358 - msle: 0.0104 - mae: 0.5598WARNING:tensorflow:Callbacks method `on_train_batch_end` is slow compar
+ed to the batch time (batch time: 0.1454s vs `on_train_batch_end` time: 0.3121s). Check your callbacks.
+100/100 [==============================] - ETA: 0s - loss: 0.0634 - mse: 0.0634 - msle: 0.0099 - mae: 0.0955Importing training file...
+Counting number of rows...
+Done.
+The dataset contains  31167  rows
+2024-02-22 23:50:40.390321: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.15GiB with freed_by_count=0. The cal
+ler indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+100/100 [==============================] - 58s 582ms/step - loss: 0.0634 - mse: 0.0634 - msle: 0.0099 - mae: 0.0955 - val_loss: 0.1105 - val_mse: 0.1105 - val_msle: 0.0248 - val_ma
+e: 0.1252
+Epoch 2/10
+100/100 [==============================] - 58s 579ms/step - loss: 0.0423 - mse: 0.0423 - msle: 0.0099 - mae: 0.0549 - val_loss: 0.0969 - val_mse: 0.0969 - val_msle: 0.0245 - val_ma
+e: 0.0896
+Epoch 3/10
+100/100 [==============================] - 58s 580ms/step - loss: 0.0402 - mse: 0.0402 - msle: 0.0098 - mae: 0.0486 - val_loss: 0.0964 - val_mse: 0.0964 - val_msle: 0.0246 - val_ma
+e: 0.0824
+Epoch 4/10
+100/100 [==============================] - 58s 580ms/step - loss: 0.0373 - mse: 0.0373 - msle: 0.0086 - mae: 0.0501 - val_loss: 0.0958 - val_mse: 0.0958 - val_msle: 0.0106 - val_ma
+e: 0.2147
+Epoch 5/10
+100/100 [==============================] - 58s 583ms/step - loss: 0.0244 - mse: 0.0244 - msle: 0.0028 - mae: 0.0677 - val_loss: 0.0349 - val_mse: 0.0349 - val_msle: 0.0047 - val_ma
+e: 0.0761
+Epoch 6/10
+100/100 [==============================] - 58s 583ms/step - loss: 0.0093 - mse: 0.0093 - msle: 8.6699e-04 - mae: 0.0382 - val_loss: 0.0284 - val_mse: 0.0284 - val_msle: 0.0036 - va
+l_mae: 0.0776
+Epoch 7/10
+100/100 [==============================] - 59s 586ms/step - loss: 0.0063 - mse: 0.0063 - msle: 5.5099e-04 - mae: 0.0312 - val_loss: 0.0412 - val_mse: 0.0412 - val_msle: 0.0042 - va
+l_mae: 0.1364
+Epoch 8/10
+100/100 [==============================] - 58s 584ms/step - loss: 0.0064 - mse: 0.0064 - msle: 4.6482e-04 - mae: 0.0366 - val_loss: 0.0532 - val_mse: 0.0532 - val_msle: 0.0036 - va
+l_mae: 0.1917
+Epoch 9/10
+100/100 [==============================] - 59s 585ms/step - loss: 0.0083 - mse: 0.0083 - msle: 5.6003e-04 - mae: 0.0435 - val_loss: 0.0288 - val_mse: 0.0288 - val_msle: 0.0036 - va
+l_mae: 0.0907
+Epoch 10/10
+100/100 [==============================] - 58s 584ms/step - loss: 0.0046 - mse: 0.0046 - msle: 3.5159e-04 - mae: 0.0276 - val_loss: 0.0435 - val_mse: 0.0435 - val_msle: 0.0037 - va
+l_mae: 0.1618

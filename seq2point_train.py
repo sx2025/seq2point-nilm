@@ -30,7 +30,7 @@ class Trainer():
     def __init__(self, appliance, batch_size, crop, network_type, 
                  training_directory, validation_directory, save_model_dir,
                  epochs=10, input_window_length=599, validation_frequency=1,
-                 patience=3, min_delta=1e-4, verbose=1):
+                 patience=3, min_delta=1e-6, verbose=1):
         self.__appliance = appliance
         self.__algorithm = network_type
         self.__network_type = network_type
@@ -41,8 +41,8 @@ class Trainer():
         self.__min_delta = min_delta
         self.__verbose = verbose
         self.__loss = "mse"
-        self.__metrics = ["mse", "msle", "mae"]
-        self.__learning_rate = 0.01
+        self.__metrics = ["mse", "msle", "mae", "mape"]
+        self.__learning_rate = 0.001
         self.__beta_1=0.9
         self.__beta_2=0.999
         self.__save_model_dir = save_model_dir
@@ -168,10 +168,13 @@ class Trainer():
 
         plt.plot(training_history.history["loss"], label="MSE (Training Loss)")
         plt.plot(training_history.history["val_loss"], label="MSE (Validation Loss)")
+        plt.plot(training_history.history["mae"], label="MAE")
+        plt.plot(training_history.history["msle"], label="MSLE")
+
         plt.title('Training History')
         plt.ylabel('Loss')
         plt.xlabel('Epoch')
         plt.legend()
 
-        #file_name = "./" + self.__appliance + "/saved_models/" + self.__appliance + "_" + self.__pruning_algorithm + "_" + self.__network_type + "_training_results.png"
-        #plt.savefig(fname=file_name)
+        file_name = "G:/seq2point-nilm" + "/saved_models/" + self.__appliance + "_" + self.__network_type + "_training_results.png"
+        plt.savefig(fname=file_name)

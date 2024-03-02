@@ -43,25 +43,25 @@ params_appliance = {
         'channels': [6, 13],
     },
     'washingmachine': {
-        'windowlength': 599,
+        'windowlength': 999,
         'on_power_threshold': 20,
         'max_on_power': 3999,
         'mean': 400,
         'std': 700,
         's2s_length': 2000,
-        'houses': [1, 2],
-        'channels': [5, 12],
+        'houses': [1, 4],
+        'channels': [5, 6],
     }
 }
 
 appliance_name = 'washingmachine'
-building = 2
+building = 4
 
 
 chunksize = None
 path = path = 'G:/seq2point-nilm/dataset_management/ukdale/washingmachine/'
 
-test_filename = path + appliance_name + '_test_' + 'uk-dale_' + 'H' + str(building) + '.csv'
+test_filename = path + appliance_name + '_test_'  + '.csv'
 
 chunk = pd.read_csv(test_filename,
                     nrows=chunksize,
