@@ -156,6 +156,7 @@ def create_model(input_window_length):
     spatial_attention = SpatialAttention(layer_6)
     layer_7 = layer_6 * spatial_attention
 
+    # 展平,全连接层,输出层,模型 以下部分不变，修改中间的卷积，尝试添加残差层和注意力机制
     flatten_layer = tf.keras.layers.Flatten()(conv_layer_5)
     label_layer = tf.keras.layers.Dense(1024, activation="relu")(flatten_layer)
     output_layer = tf.keras.layers.Dense(1, activation="linear")(label_layer)
